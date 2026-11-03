@@ -1,2 +1,2 @@
-# v-bank
-A virtual banking project to show off my skills . 
+V-Bank is a full-stack virtual banking web application inspired by PayPal, built to demonstrate production-grade financial software engineering. It lets users register, log in securely, hold a multi-currency wallet, send money to other users, and view their full transaction history. The backend is a Spring Boot 3 / Java 21 REST API secured with JWT authentication and backed by PostgreSQL, using a double-entry ledger model to guarantee transactional correctness and idempotency keys to prevent duplicate payments. The frontend is a React 18 + TypeScript + Vite single-page app styled with Tailwind CSS, using TanStack Query for server-state management and Axios for authenticated API calls. The entire stack runs locally via Docker Compose.
+
